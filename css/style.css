@@ -2,8 +2,12 @@
 
 .nav { position: fixed; background }
 
-/*ALL OF THE FIRST SECTION TO INTRODUCE GAME AND SPACE*/
-.splash-container { padding: 3% 10% 3% 10%; background-color: RGBA(240, 187, 57, .5);}
+/*SECTION CSS (use to hold different sections)*/
+.splash-container { padding: 3% 10% 3% 10%; }
+
+.splash-container.one { background-color: RGBA(240, 187, 57, .5); } 
+
+.splash-container.two { background-color: RGBA(230, 230, 230, 1.00); }
 
 .splash-container h1, .splash-container h6 { text-align: center; } 
 
