@@ -33,7 +33,7 @@
 
 .homelogo { width: 40%; margin-left: 32%; }
 
-.footer { text-align: center; background-color: #52aa44; height: 100px; }
+.footer { text-align: center; background-color: #52aa44; padding-top: 4%; padding-bottom: 4%;}
 
 @media only screen and (max-width: 800px) {
 
@@ -49,6 +49,14 @@
 	.splash-button-home { margin-left: 5%; }
 
 	.homepl { font-size: 15pt; padding-bottom: 5%;}
+
+
+}
+
+@media only screen and (min-width: 1300px) {
+
+	/*large monitors*/
+	.splash-button-home { margin-left: 30%; } 
 
 
 }
