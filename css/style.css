@@ -33,7 +33,7 @@
 
 .homelogo { width: 40%; margin-left: 32%; }
 
-.footer { text-align: center; background-color: #52aa44; padding-top: 4%; padding-bottom: 4%;}
+.footer { text-align: center; background-color: #52aa44; padding-top: 2%; padding-bottom: 2%;}
 
 @media only screen and (max-width: 800px) {
 
