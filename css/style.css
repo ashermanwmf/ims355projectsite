@@ -27,13 +27,15 @@
 
 .splash-description { padding: 4%; font-size: 20pt;}
 
-.splash-button-home { margin-left: 20%; }
+.splash-button-home { margin-left: 23%; }
 
 .homepl { font-size: 30pt; }
 
 .homelogo { width: 40%; margin-left: 32%; }
 
-.footer { text-align: center; background-color: #52aa44; padding-top: 2%; padding-bottom: 2%;}
+.bighome { width:80%; margin-top: 3%; margin-bottom: -2%; padding-left: 10%; }
+
+.footer { text-align: center; background-color: #52aa44; padding-top: 2%; padding-bottom: 2%; }
 
 @media only screen and (max-width: 800px) {
 
@@ -50,6 +52,9 @@
 
 	.homepl { font-size: 15pt; padding-bottom: 5%;}
 
+	.bighome { width:100%; margin-top: 2%; margin-bottom: 0%; padding-left: 0%; }
+
+	.footer { padding-top: 3.7%; padding-bottom: 3.7%; }
 
 }
 
