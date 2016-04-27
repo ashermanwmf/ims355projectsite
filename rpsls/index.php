@@ -71,27 +71,27 @@ require("functions.php");
 
     			if ($winner == 'computer') {
 
-    				print '<div class="alert alert-success"><h3>Computer</h3><img src="img/' . $choice . '.jpg" /></div>';
+    				print '<div class="alert alert-success"><h3>Computer</h3><img src="img/' . $choice . '.png" /></div>';
 
     				print '<h4>'. $phrase . '</h4>';
 
-    				print '<div class="alert alert-danger"><h3>Human</h3><img src="img/' . $me . '.jpg" /></div>';
+    				print '<div class="alert alert-danger"><h3>Human</h3><img src="img/' . $me . '.png" /></div>';
 
     			} elseif ($winner == 'human') {
 
-    				print '<div class="alert alert-success"><h3>Human</h3><img src="img/' . $me . '.jpg" /></div>';
+    				print '<div class="alert alert-success"><h3>Human</h3><img src="img/' . $me . '.png" /></div>';
 
     				print '<h4>'. $phrase . '</h4>';
 
-    				print '<div class="alert alert-danger"><h3>Computer</h3><img src="img/' . $choice . '.jpg" /></div>';
+    				print '<div class="alert alert-danger"><h3>Computer</h3><img src="img/' . $choice . '.png" /></div>';
 
     			} elseif ($winner == 'tie') {
 
-    				print '<div class="alert alert-warning left"><h3>Human</h3><img src="img/' . $me . '.jpg" /></div>';
+    				print '<div class="alert alert-warning left"><h3>Human</h3><img src="img/' . $me . '.png" /></div>';
 
     				print '<h4>'. $phrase . '</h4>';
 
-    				print '<div class="alert alert-warning right"><h3>Computer</h3><img src="img/' . $choice . '.jpg" /></div>';
+    				print '<div class="alert alert-warning right"><h3>Computer</h3><img src="img/' . $choice . '.png" /></div>';
 
     			} elseif ($winner == ''){
 
