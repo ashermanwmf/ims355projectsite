@@ -19,6 +19,8 @@
 
 .splash-container.two { background-color: RGBA(230, 230, 230, 1.00); }
 
+.splash-container.three {background-color: #58647b; }
+
 .splash-container h1, .splash-container h6 { text-align: center; } 
 
 .splash-container h1 { font-size: 40pt;} 
