@@ -27,7 +27,7 @@
 
 /*how do I float 2 divs next*/
 
-.splash-container h1, .splash-container h6 { text-align: center; } 
+.splash-container h1, .splash-container h4 { text-align: center; } 
 
 .splash-container h1 { font-size: 40pt;} 
  
@@ -56,9 +56,9 @@
 
 	.splash-description { margin-top: -3%; font-size: 10pt;}
 
-	.splash-button-home { margin-left: 5%; }
+	.splash-button-home { margin-left: 16%; }
 
-	.homepl { font-size: 15pt; padding-bottom: 5%;}
+	.homepl { font-size: 10pt; padding-bottom: 5%;}
 
 	.bighome { width:100%; margin-top: 2%; margin-bottom: 0%; padding-left: 0%; }
 
